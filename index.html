@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
   <title>Карта гістарычных гравюр і панарам | Engravings Map</title>
   
   <!-- Leaflet CSS & JS -->
@@ -269,6 +270,7 @@
       border-radius: 4px;
       margin-bottom: 8px;
       cursor: pointer;
+      background: #1a1918;
     }
 
     .popup-title {
@@ -340,6 +342,7 @@
       margin: 14px 0;
       border: 1px solid #444;
       cursor: zoom-in;
+      background: #1a1918;
     }
 
     .modal-h2 {
@@ -419,7 +422,6 @@
         <span class="chip active" data-status="all">Усе выявы</span>
         <span class="chip" data-status="authentic">Аўтэнтычныя</span>
         <span class="chip" data-status="pseudo">Памылковыя / Псеўда</span>
-        <span class="chip" data-status="composite">Кампіляцыі</span>
       </div>
 
       <div class="filter-chips">
@@ -450,11 +452,11 @@
     </div>
     <div class="legend-item">
       <span class="legend-dot" style="background: #9d4edd;"></span>
-      <span>Рэальны прататып (Германія / Сілезія)</span>
+      <span>Рэальны прататып (Güsterow і інш.)</span>
     </div>
     <div class="legend-item">
       <span style="width: 16px; height: 2px; border-top: 2px dashed #f4a261;"></span>
-      <span>Сувязь «заяўленае — рэальнае»</span>
+      <span>Сувязь «заяўленае — прататып»</span>
     </div>
   </div>
 
@@ -476,7 +478,7 @@
         <td id="modalClaimed" style="font-weight: 600;"></td>
       </tr>
       <tr>
-        <td>Насамрэч:</td>
+        <td>Прататып / Рэальнасць:</td>
         <td id="modalActual" style="font-weight: 600; color: #f4a261;"></td>
       </tr>
       <tr>
@@ -511,20 +513,42 @@
     let currentFilterCentury = 'all';
     let searchQuery = '';
 
-    // Init Leaflet Map
+    // Init Leaflet Map with 100% free basemaps (No API key needed)
     function initMap() {
-      // Center over Belarus and Central Europe
       map = L.map('map', {
-        center: [53.5, 25.0],
+        center: [53.5, 23.0],
         zoom: 6,
         zoomControl: true
       });
 
-      // CartoDB Voyager / Dark Matter (antique feel)
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://carto.com/">CARTO</a>, &copy; <a href="https://openstreetmap.org">OSM</a>',
+      // Free reliable OpenStreetMap Standard
+      const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 19
-      }).addTo(map);
+      });
+
+      // Esri Topo - elegant antique/relief cartography
+      const esriTopo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, USGS, DeLorme, HERE',
+        maxZoom: 18
+      });
+
+      // Esri National Geographic World Map - vintage aesthetics
+      const esriNatGeo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; National Geographic',
+        maxZoom: 16
+      });
+
+      // Add default basemap
+      osm.addTo(map);
+
+      // Layer switcher in top-right
+      const baseMaps = {
+        "OpenStreetMap (стандартная)": osm,
+        "Тапаграфічны рэльеф (Esri)": esriTopo,
+        "Вінтажны стыль (NatGeo)": esriNatGeo
+      };
+      L.control.layers(baseMaps).addTo(map);
 
       markersLayer = L.layerGroup().addTo(map);
       linesLayer = L.layerGroup().addTo(map);
@@ -583,7 +607,7 @@
         const badgeClass = item.status === 'authentic' ? 'badge-authentic' : (item.status === 'pseudo' ? 'badge-pseudo' : 'badge-composite');
 
         card.innerHTML = `
-          <img class="card-thumb" src="${item.image_url}" alt="${item.title}" loading="lazy" />
+          <img class="card-thumb" src="${item.image_url}" alt="${item.title}" loading="lazy" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png';" />
           <div class="card-body">
             <div>
               <div class="card-title">${item.title}</div>
@@ -606,25 +630,25 @@
       const items = getFilteredData();
 
       items.forEach(item => {
-        // Claimed location marker
         const isAuthentic = item.status === 'authentic';
         const color = isAuthentic ? '#2a9d8f' : '#e76f51';
 
+        // Claimed location marker
         const claimedMarker = L.circleMarker([item.claimed_location.lat, item.claimed_location.lng], {
           radius: 8,
           fillColor: color,
           color: '#ffffff',
           weight: 2,
           opacity: 1,
-          fillOpacity: 0.85
+          fillOpacity: 0.9
         });
 
         const popupContent = `
-          <img class="popup-img" src="${item.image_url}" onclick="openModal('${item.id}')" />
+          <img class="popup-img" src="${item.image_url}" onclick="openModal('${item.id}')" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png';" />
           <div class="popup-title">${item.title}</div>
           <div class="popup-sub"><i>${item.original_title}</i> (${item.year || item.century + ' ст.'})</div>
           <div><b>Заяўлена:</b> ${item.claimed_location.name}</div>
-          ${!isAuthentic ? `<div><b>Насамрэч:</b> ${item.actual_location.name}</div>` : ''}
+          ${!isAuthentic ? `<div><b>Прататып:</b> ${item.actual_location.name}</div>` : ''}
           <a class="popup-btn" href="#" onclick="openModal('${item.id}'); return false;">Падрабязней</a>
         `;
 
@@ -646,12 +670,12 @@
 
           actualMarker.bindPopup(`
             <div class="popup-title">Прататып: ${item.actual_location.name}</div>
-            <div class="popup-sub">Гэты аб'ект выкарыстаны для гравюры: <b>${item.title}</b></div>
+            <div class="popup-sub">Гэты аб'ект паслужыў асновай для гравюры: <b>${item.title}</b></div>
             <a class="popup-btn" href="#" onclick="openModal('${item.id}'); return false;">Разбор міфа</a>
           `);
           markersLayer.addLayer(actualMarker);
 
-          // Connecting curved or dashed polyline
+          // Connecting dashed polyline
           const line = L.polyline([
             [item.claimed_location.lat, item.claimed_location.lng],
             [item.actual_location.lat, item.actual_location.lng]
@@ -659,7 +683,7 @@
             color: '#f4a261',
             weight: 2.5,
             dashArray: '6, 8',
-            opacity: 0.75
+            opacity: 0.8
           });
 
           line.bindTooltip(`Сувязь: ${item.claimed_location.name} &harr; ${item.actual_location.name}`);
@@ -672,13 +696,12 @@
       highlightCard(item.id);
       openModal(item.id);
 
-      // Fit bounds to claimed and actual location
       if (item.actual_location && (item.actual_location.lat !== item.claimed_location.lat)) {
         const bounds = L.latLngBounds([
           [item.claimed_location.lat, item.claimed_location.lng],
           [item.actual_location.lat, item.actual_location.lng]
         ]);
-        map.fitBounds(bounds, { padding: [80, 80], maxZoom: 10 });
+        map.fitBounds(bounds, { padding: [80, 80], maxZoom: 9 });
       } else {
         map.setView([item.claimed_location.lat, item.claimed_location.lng], 9);
       }

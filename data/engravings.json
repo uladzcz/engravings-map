@@ -11,34 +11,34 @@
       "lng": 30.3314
     },
     "actual_location": {
-      "name": "Гюстраў, Германія (верагодны прататып рэнесанснага замка)",
-      "lat": 53.7933,
-      "lng": 12.1764
+      "name": "Невядомы еўрапейскі горад (у пошуку / Нідэрланды ці Германія)",
+      "lat": 52.3676,
+      "lng": 4.9041
     },
     "year": 1720,
     "century": 18,
     "artist": "Невядомы гравёр (кола Габрыэля Бодэнера / Аўгсбург)",
-    "publisher": "Аўгсбургскія выдавецтвы (пазнейшае факсіміле 1908 г.)",
-    "album": "Невядомы зборнік панарам / Curioses Staats-Theatrum",
+    "publisher": "Аўгсбургскія выдавецтвы (пазнейшае факсіміле)",
+    "album": "Невядомы зборнік панарам / Theatrum",
     "commons_url": "https://commons.wikimedia.org/wiki/File:Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_(XVIII)_(2).jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_%28XVIII%29_%282%29.jpg/800px-Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_%28XVIII%29_%282%29.jpg",
-    "description": "Знакамітая фантазійная гравюра са стужкай «Prospect der Stadt Mohilow». Замест драўляна-землянога Магілёўскага замка паказаны велічны мураваны рэнесансны палац з рандэлямі (вельмі блізкі да замка Гюстраў у Мекленбургу) і заходнееўрапейскія бюргерскія дамы са ступеньчатымі шчыпцамі."
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_%28XVIII%29_%282%29.jpg/500px-Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_%28XVIII%29_%282%29.jpg",
+    "description": "Знакамітая памылковая гравюра са стужкай «Prospect der Stadt Mohilow». На ёй паказаны манументальны мураваны рэнесансны палац з вуглавымі вежамі-рандэлямі і шчыльная заходнееўрапейская забудова са ступеньчатымі шчыпцамі, якая не адпавядае рэальнаму драўляна-земляному замку і тапаграфіі Магілёва на Дняпры. Пошук дакладнага еўрапейскага першаўзору працягваецца."
   },
   {
     "id": "grodno-bodenehr-composite",
-    "title": "«Гродна» Габрыэля Бодэнера (з сілезскім замкам)",
+    "title": "«Гродна» Габрыэля Бодэнера (памылковая гравюра)",
     "original_title": "Grodno. Im Gross Hertzogthū Litthauen",
-    "status": "composite",
-    "status_label": "Кампіляцыя / Памылковы замак",
+    "status": "pseudo",
+    "status_label": "Памылковая выява (прататып: Güsterow)",
     "claimed_location": {
       "name": "Гродна",
       "lat": 53.6884,
       "lng": 23.8258
     },
     "actual_location": {
-      "name": "Замак Гродна (Kynau), Ніжняя Сілезія, Польшча",
-      "lat": 50.7508,
-      "lng": 16.4106
+      "name": "Гюстраў (Güsterow), Мекленбург, Германія",
+      "lat": 53.7933,
+      "lng": 12.1764
     },
     "year": 1720,
     "century": 18,
@@ -46,8 +46,33 @@
     "publisher": "Gabriel Bodenehr (Augsburg)",
     "album": "Curioses Staats- und Kriegs-Theatrum in Polen",
     "commons_url": "https://commons.wikimedia.org/wiki/File:GRODNO_1709.jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GRODNO_1709.jpg/800px-GRODNO_1709.jpg",
-    "description": "Барочная кампіляцыя Бодэнера. Гравёр узяў назву беларускага Гродна, але праз сугучча або недахоп матэрыялаў у цэнтры панарамы змясціў сілезскі замак Гродна (Kynau) з арачнымі мастамі і дадаў фантазійныя муры."
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/GRODNO_1709.jpg/500px-GRODNO_1709.jpg",
+    "description": "Вядомая памылковая выява Гродна з выдання Габрыэля Бодэнера. Даследчыкі выявілі, што за прататып і кампазіцыйную аснову для гэтага віду былі ўзятыя выявы нямецкага горада Гюстраў (Güsterow, 1653) і сілезскага замка, скамбінаваныя з фантазійнымі мурамі."
+  },
+  {
+    "id": "guestrow-merian-1653",
+    "title": "Гюстраў (Güsterow, 1653) — прататып для памылковага Гродна",
+    "original_title": "Güsterow",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная выява (прататып)",
+    "claimed_location": {
+      "name": "Гюстраў (Güstrow)",
+      "lat": 53.7933,
+      "lng": 12.1764
+    },
+    "actual_location": {
+      "name": "Гюстраў, Мекленбург-Пярэдняя Памеранія, Германія",
+      "lat": 53.7933,
+      "lng": 12.1764
+    },
+    "year": 1653,
+    "century": 17,
+    "artist": "Маціяс Мерыян (Matthäus Merian)",
+    "publisher": "Merian Erben (Frankfurt)",
+    "album": "Topographia Saxoniae Inferioris",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:G%C3%BCsterow_(Merian).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/G%C3%BCsterow_%28Merian%29.jpg/500px-G%C3%BCsterow_%28Merian%29.jpg",
+    "description": "Арыгінальная гравюра Маціяса Мерыяна з выданнем рэзідэнцыі Гюстраў у Мекленбургу (1653). Менавіта гэты від паслужыў першаўзорам для памылковай панарамы Гродна ў нямецкіх атласах XVIII стагоддзя."
   },
   {
     "id": "grodno-zundt-1568",
@@ -71,7 +96,7 @@
     "publisher": "Matthias Zündt (Nürnberg)",
     "album": "Асобны насценны аркуш / перавыдадзена ў Civitates Orbis Terrarum (1575)",
     "commons_url": "https://commons.wikimedia.org/wiki/File:16th-Century_View_of_Grodno_-_History_and_Archaeology_Museum_-_Novi_Zamak_(Old_Castle)_-_Belarus_(27673823842).jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/16th-Century_View_of_Grodno_-_History_and_Archaeology_Museum_-_Novi_Zamak_%28Old_Castle%29_-_Belarus_%2827673823842%29.jpg/800px-16th-Century_View_of_Grodno_-_History_and_Archaeology_Museum_-_Novi_Zamak_%28Old_Castle%29_-_Belarus_%2827673823842%29.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/16th-Century_View_of_Grodno_-_History_and_Archaeology_Museum_-_Novi_Zamak_%28Old_Castle%29_-_Belarus_%2827673823842%29.jpg/500px-16th-Century_View_of_Grodno_-_History_and_Archaeology_Museum_-_Novi_Zamak_%28Old_Castle%29_-_Belarus_%2827673823842%29.jpg",
     "description": "Першая дакладная і падрабязная панарама беларускага горада ў еўрапейскай графіцы. Паказаны прыезд замежных пасольстваў на сойм 1567 г. пры Жыгімонце Аўгусце, панарама Старога замка, Фары Вітаўта і Каложы."
   },
   {
@@ -96,7 +121,7 @@
     "publisher": "Нясвіжская майстэрня Радзівілаў",
     "album": "Асобная медзярытная панарама",
     "commons_url": "https://commons.wikimedia.org/wiki/File:Grodna_1600.jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Grodna_1600.jpg/800px-Grodna_1600.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Grodna_1600.jpg/500px-Grodna_1600.jpg",
     "description": "Фундаментальная графічная крыніца эпохі Стэфана Баторыя. Выключна падрабязны рэнесансны выгляд рэзідэнцыі караля, замкаў і гарадской ратушы з галандскімі шчыпцамі."
   },
   {
@@ -120,8 +145,8 @@
     "artist": "Васіль Вашчанка",
     "publisher": "Магілёўскае Богаяўленскае братэрства",
     "album": "Кніга жыцій святых (Магілёў, 1702)",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Mahilo%C5%AD,_Spas,_Uvaskrasienski._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E,_%D0%A1%D0%BF%D0%B0%D1%81,_%D0%A3%D0%B2%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D1%8F%D0%BD%D1%81%D0%BA%D1%96_(V._Va%C5%A1%C4%8Danka,_1702).jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mahilo%C5%AD%2C_Spas%2C_Uvaskrasienski._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E%2C_%D0%A1%D0%BF%D0%B0%D1%81%2C_%D0%A3%D0%B2%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D1%8F%D0%BD%D1%81%D0%BA%D1%96_%28V._Va%C5%A1%C4%8Danka%2C_1702%29.jpg/600px-Mahilo%C5%AD%2C_Spas%2C_Uvaskrasienski._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E%2C_%D0%A1%D0%BF%D0%B0%D1%81%2C_%D0%A3%D0%B2%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D1%8F%D0%BD%D1%81%D0%BA%D1%96_%28V._Va%C5%A1%C4%8Danka%2C_1702%29.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_(V._Va%C5%A1%C4%8Danka,_1702).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_%28V._Va%C5%A1%C4%8Danka%2C_1702%29.jpg/500px-Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_%28V._Va%C5%A1%C4%8Danka%2C_1702%29.jpg",
     "description": "Сапраўдная аўтэнтычная гравюра магілёўскай школы гравюры пачатку XVIII ст. Выразна бачныя драўляныя ўмацаванні горада, Спаская і Васкрасенская цэрквы, вежа ратушы."
   },
   {
@@ -145,8 +170,8 @@
     "artist": "Эрык Дальберг (Erik Dahlbergh)",
     "publisher": "Samuel Pufendorf (Nürnberg, 1696)",
     "album": "De rebus a Carolo Gustavo Sueciae Rege gestis",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Erik_Dahlbergh_-_Brest-Litovsk_1657.jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Erik_Dahlbergh_-_Brest-Litovsk_1657.jpg/800px-Erik_Dahlbergh_-_Brest-Litovsk_1657.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Biera%C5%9Bcie_Lito%C5%ADskaje._%D0%91%D0%B5%D1%80%D0%B0%D1%81%D1%8C%D1%86%D0%B5_%D0%9B%D1%96%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D0%B5_%28E._Dahlbergh%2C_1657%29_%282%29.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Biera%C5%9Bcie_Lito%C5%ADskaje._%D0%91%D0%B5%D1%80%D0%B0%D1%81%D1%8C%D1%86%D0%B5_%D0%9B%D1%96%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D0%B5_%28E._Dahlbergh%2C_1657%29_%282%29.jpg/500px-Biera%C5%9Bcie_Lito%C5%ADskaje._%D0%91%D0%B5%D1%80%D0%B0%D1%81%D1%8C%D1%86%D0%B5_%D0%9B%D1%96%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D0%B5_%28E._Dahlbergh%2C_1657%29_%282%29.jpg",
     "description": "Дакладны план і перспектыўны від старога Брэста да пабудовы крэпасці XIX ст. Паказаны Брэсцкі замак на востраве, касцёлы і сінагога."
   },
   {
@@ -170,33 +195,8 @@
     "artist": "Станіслаў Пахалавецкі (Stanisław Pachołowiecki)",
     "publisher": "Рымскае выданне / Браўн і Хогенберг",
     "album": "Civitates Orbis Terrarum",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Plan_Polocka_1579_paholovecki.jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Plan_Polocka_1579_paholovecki.jpg/800px-Plan_Polocka_1579_paholovecki.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Po%C5%82acak._%D0%9F%D0%BE%D0%BB%D0%B0%D1%86%D0%B0%D0%BA_%281579%29.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Po%C5%82acak._%D0%9F%D0%BE%D0%BB%D0%B0%D1%86%D0%B0%D0%BA_%281579%29.jpg/500px-Po%C5%82acak._%D0%9F%D0%BE%D0%BB%D0%B0%D1%86%D0%B0%D0%BA_%281579%29.jpg",
     "description": "Дакладная ваенна-тапаграфічная гравюра вызвалення Полацка войскамі Рэчы Паспалітай у 1579 годзе. Падрабязна зафіксаваныя Верхні, Ніжні і Стралецкі замкі."
-  },
-  {
-    "id": "guestrow-merian-1653",
-    "title": "Рэзідэнцыя Гюстраў (прататып для псеўда-Магілёва)",
-    "original_title": "Güsterow",
-    "status": "authentic",
-    "status_label": "Аўтэнтычная выява (Германія)",
-    "claimed_location": {
-      "name": "Гюстраў (Güstrow)",
-      "lat": 53.7933,
-      "lng": 12.1764
-    },
-    "actual_location": {
-      "name": "Гюстраў, Мекленбург-Пярэдняя Памеранія, Германія",
-      "lat": 53.7933,
-      "lng": 12.1764
-    },
-    "year": 1653,
-    "century": 17,
-    "artist": "Маціяс Мерыян (Matthäus Merian)",
-    "publisher": "Merian Erben (Frankfurt)",
-    "album": "Topographia Saxoniae Inferioris",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:G%C3%BCsterow_(Merian).jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/G%C3%BCsterow_%28Merian%29.jpg/800px-G%C3%BCsterow_%28Merian%29.jpg",
-    "description": "Арыгінальны від мекленбургскай рэзідэнцыі Гюстраў з характэрным маньерыстычным замкам, які паслужыў стылістычнай ці непасрэднай асновай для аўгсбургскага «Prospect der Stadt Mohilow»."
   }
 ]
