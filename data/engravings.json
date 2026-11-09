@@ -8,7 +8,8 @@
     "claimed_location": {
       "name": "Магілёў",
       "lat": 53.9007,
-      "lng": 30.3314
+      "lng": 30.3314,
+      "wikidata": "Q154835"
     },
     "actual_location": {
       "name": "Невядомы еўрапейскі горад (у пошуку / Нідэрланды ці Германія)",
@@ -33,7 +34,8 @@
     "claimed_location": {
       "name": "Гродна",
       "lat": 53.6884,
-      "lng": 23.8258
+      "lng": 23.8258,
+      "wikidata": "Q181385"
     },
     "actual_location": {
       "name": "Гюстраў (Güsterow), Мекленбург, Германія",
@@ -58,7 +60,8 @@
     "claimed_location": {
       "name": "Гюстраў (Güstrow)",
       "lat": 53.7933,
-      "lng": 12.1764
+      "lng": 12.1764,
+      "wikidata": "Q16147"
     },
     "actual_location": {
       "name": "Гюстраў, Мекленбург-Пярэдняя Памеранія, Германія",
@@ -83,7 +86,8 @@
     "claimed_location": {
       "name": "Гродна",
       "lat": 53.6778,
-      "lng": 23.8247
+      "lng": 23.8247,
+      "wikidata": "Q181385"
     },
     "actual_location": {
       "name": "Гродна (Стары замак і Нёман)",
@@ -108,7 +112,8 @@
     "claimed_location": {
       "name": "Гродна",
       "lat": 53.6778,
-      "lng": 23.8247
+      "lng": 23.8247,
+      "wikidata": "Q181385"
     },
     "actual_location": {
       "name": "Гродна",
@@ -133,7 +138,8 @@
     "claimed_location": {
       "name": "Магілёў",
       "lat": 53.8944,
-      "lng": 30.3328
+      "lng": 30.3328,
+      "wikidata": "Q154835"
     },
     "actual_location": {
       "name": "Магілёў (Братэрскі манастыр і ратуша)",
@@ -158,7 +164,8 @@
     "claimed_location": {
       "name": "Брэст",
       "lat": 52.0833,
-      "lng": 23.6558
+      "lng": 23.6558,
+      "wikidata": "Q140147"
     },
     "actual_location": {
       "name": "Брэст (Брэсцкі замак і стары горад)",
@@ -183,7 +190,8 @@
     "claimed_location": {
       "name": "Полацк",
       "lat": 55.4856,
-      "lng": 28.7686
+      "lng": 28.7686,
+      "wikidata": "Q180744"
     },
     "actual_location": {
       "name": "Полацк (Верхні і Ніжні замкі)",
@@ -198,5 +206,86 @@
     "commons_url": "https://commons.wikimedia.org/wiki/File:Po%C5%82acak._%D0%9F%D0%BE%D0%BB%D0%B0%D1%86%D0%B0%D0%BA_%281579%29.jpg",
     "image_url": "images/polotsk-pacholowiecki-1579.jpg",
     "description": "Дакладная ваенна-тапаграфічная гравюра вызвалення Полацка войскамі Рэчы Паспалітай у 1579 годзе. Падрабязна зафіксаваныя Верхні, Ніжні і Стралецкі замкі."
+  },
+  {
+    "id": "vilnius-braun-1581",
+    "title": "Панарама Вільні (Браўн і Хогенберг, 1581)",
+    "original_title": "Vilna Lituaniae metropolis",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная выява",
+    "claimed_location": {
+      "name": "Vilnius",
+      "wikidata": "Q216",
+      "lat": 54.687222222222225,
+      "lng": 25.28
+    },
+    "actual_location": {
+      "name": "Vilnius",
+      "wikidata": "Q216",
+      "lat": 54.687222222222225,
+      "lng": 25.28
+    },
+    "year": 1581,
+    "century": 16,
+    "artist": "Георг Браўн і Франц Хогенберг",
+    "publisher": "Braun & Hogenberg (Cologne)",
+    "album": "Civitates Orbis Terrarum (Vol. III)",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ACivitates%20orbis%20terrarum%2C%201581.%20Vilna.%2027%20die%20dir%20garde.jpg",
+    "image_url": "images/vilnius-braun-1581.jpg",
+    "description": "Першая класічная еўрапейская панарама сталіцы Вялікага Княства Літоўскага. Падрабязна паказаны Верхні і Ніжні замкі, кафедральны сабор, ратуша і шматлікія храмы Вільні."
+  },
+  {
+    "id": "nesvizh-makowski-1604",
+    "title": "План і замак у Нясвіжы (Тамаш Макоўскі)",
+    "original_title": "Niesvisium",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная выява",
+    "claimed_location": {
+      "name": "Niasviž",
+      "wikidata": "Q201230",
+      "lat": 53.21888888888889,
+      "lng": 26.681944444444444
+    },
+    "actual_location": {
+      "name": "Niasviž",
+      "wikidata": "Q201230",
+      "lat": 53.21888888888889,
+      "lng": 26.681944444444444
+    },
+    "year": 1604,
+    "century": 17,
+    "artist": "Тамаш Макоўскі",
+    "publisher": "Нясвіжская друкарня Радзівілаў",
+    "album": "Асобная гравюра Радзівілаўскага кола",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ANiasvizh%20Makouski.jpg",
+    "image_url": "images/nesvizh-makowski-1604.jpg",
+    "description": "Выдатная рэнесансная гравюра Тамаша Макоўскага з выявай новай бастыённай фартэцыі Радзівілаў у Нясвіжы, ратушы і езуіцкага касцёла Божага Цела."
+  },
+  {
+    "id": "smolensk-hondius-1636",
+    "title": "Аблога Смаленска 1632–1634 гг. (Вільгельм Гондыус)",
+    "original_title": "Smolenscum",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная выява",
+    "claimed_location": {
+      "name": "Smolensk",
+      "wikidata": "Q2337",
+      "lat": 54.782777777778,
+      "lng": 32.045277777778
+    },
+    "actual_location": {
+      "name": "Smolensk",
+      "wikidata": "Q2337",
+      "lat": 54.782777777778,
+      "lng": 32.045277777778
+    },
+    "year": 1636,
+    "century": 17,
+    "artist": "Вільгельм Гондыус (Wilhelm Hondius)",
+    "publisher": "Wilhelm Hondius (Danzig)",
+    "album": "Грандыёзны 16-аркушны план Смаленскай вайны",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ASmolensk-1632-1634.jpg",
+    "image_url": "images/smolensk-hondius-1636.jpg",
+    "description": "Манументальная гравюра вядомага галандска-гданьскага майстра Вільгельма Гондыуса, прысвечаная перамозе Уладзіслава IV пад Смаленскам. Надзвычайная тапаграфічная дакладнасць сцен, вежаў і Дняпра."
   }
 ]
