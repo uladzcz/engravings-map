@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="referrer" content="no-referrer">
   <title>Карта гістарычных гравюр і панарам | Engravings Map</title>
   
   <!-- Leaflet CSS & JS -->
@@ -46,8 +45,8 @@
 
     /* Sidebar */
     #sidebar {
-      width: 420px;
-      min-width: 320px;
+      width: 440px;
+      min-width: 340px;
       background: var(--bg-panel);
       border-right: 1px solid var(--border);
       display: flex;
@@ -170,13 +169,13 @@
     }
 
     .card-thumb {
-      width: 80px;
-      height: 80px;
+      width: 85px;
+      height: 85px;
       border-radius: 6px;
       object-fit: cover;
       border: 1px solid #444;
       flex-shrink: 0;
-      background: #1a1918;
+      background: #141312;
     }
 
     .card-body {
@@ -245,7 +244,7 @@
     #map {
       flex: 1;
       height: 100%;
-      background: #1a1918;
+      background: #242220;
     }
 
     /* Custom Leaflet Controls / Popups */
@@ -270,7 +269,7 @@
       border-radius: 4px;
       margin-bottom: 8px;
       cursor: pointer;
-      background: #1a1918;
+      background: #141312;
     }
 
     .popup-title {
@@ -303,9 +302,9 @@
       position: absolute;
       top: 20px;
       right: 20px;
-      width: 440px;
+      width: 460px;
       max-height: calc(100vh - 40px);
-      background: rgba(36, 34, 32, 0.96);
+      background: rgba(36, 34, 32, 0.97);
       backdrop-filter: blur(10px);
       border: 1px solid var(--border);
       border-radius: 12px;
@@ -342,7 +341,7 @@
       margin: 14px 0;
       border: 1px solid #444;
       cursor: zoom-in;
-      background: #1a1918;
+      background: #141312;
     }
 
     .modal-h2 {
@@ -380,7 +379,7 @@
       position: absolute;
       bottom: 24px;
       right: 24px;
-      background: rgba(36, 34, 32, 0.92);
+      background: rgba(36, 34, 32, 0.94);
       border: 1px solid var(--border);
       padding: 10px 14px;
       border-radius: 8px;
@@ -482,6 +481,10 @@
         <td id="modalActual" style="font-weight: 600; color: #f4a261;"></td>
       </tr>
       <tr>
+        <td>Вікіданыя (QID):</td>
+        <td id="modalWikidata"></td>
+      </tr>
+      <tr>
         <td>Аўтар:</td>
         <td id="modalArtist"></td>
       </tr>
@@ -513,7 +516,7 @@
     let currentFilterCentury = 'all';
     let searchQuery = '';
 
-    // Init Leaflet Map with 100% free basemaps (No API key needed)
+    // Init Leaflet Map using Esri & OSM basemaps with NO API key requirements
     function initMap() {
       map = L.map('map', {
         center: [53.5, 23.0],
@@ -521,32 +524,32 @@
         zoomControl: true
       });
 
-      // Free reliable OpenStreetMap Standard
-      const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        maxZoom: 19
-      });
-
-      // Esri Topo - elegant antique/relief cartography
+      // Esri World Topo Map - antique, relief style, totally reliable, no 403 blocks
       const esriTopo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, USGS, DeLorme, HERE',
+        attribution: 'Tiles &copy; Esri, DeLorme, NAVTEQ, TomTom, Intermap, increment P Corp., GEBCO, USGS, FAO, NPS, NRCAN, GeoBase, IGN, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), swisstopo, MapmyIndia, and the GIS User Community',
         maxZoom: 18
       });
 
-      // Esri National Geographic World Map - vintage aesthetics
+      // Esri National Geographic World Map - gorgeous vintage paper style
       const esriNatGeo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles &copy; Esri &mdash; National Geographic',
+        attribution: 'Tiles &copy; Esri &mdash; National Geographic, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
         maxZoom: 16
       });
 
-      // Add default basemap
-      osm.addTo(map);
+      // Esri World Imagery (Супутніковы)
+      const esriImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN, and the GIS User Community',
+        maxZoom: 18
+      });
+
+      // Default basemap: Esri Topo
+      esriTopo.addTo(map);
 
       // Layer switcher in top-right
       const baseMaps = {
-        "OpenStreetMap (стандартная)": osm,
-        "Тапаграфічны рэльеф (Esri)": esriTopo,
-        "Вінтажны стыль (NatGeo)": esriNatGeo
+        "Тапаграфічны рэльеф (Esri Topo)": esriTopo,
+        "Вінтажная карта (NatGeo)": esriNatGeo,
+        "Супутнік (Esri Imagery)": esriImagery
       };
       L.control.layers(baseMaps).addTo(map);
 
@@ -554,7 +557,7 @@
       linesLayer = L.layerGroup().addTo(map);
     }
 
-    // Load GeoJSON / JSON data
+    // Load JSON data
     async function loadData() {
       try {
         const resp = await fetch('data/engravings.json');
@@ -575,7 +578,7 @@
           item.title.toLowerCase().includes(q) ||
           item.original_title.toLowerCase().includes(q) ||
           item.claimed_location.name.toLowerCase().includes(q) ||
-          item.actual_location.name.toLowerCase().includes(q) ||
+          (item.actual_location && item.actual_location.name.toLowerCase().includes(q)) ||
           (item.artist && item.artist.toLowerCase().includes(q)) ||
           (item.album && item.album.toLowerCase().includes(q));
 
@@ -607,7 +610,7 @@
         const badgeClass = item.status === 'authentic' ? 'badge-authentic' : (item.status === 'pseudo' ? 'badge-pseudo' : 'badge-composite');
 
         card.innerHTML = `
-          <img class="card-thumb" src="${item.image_url}" alt="${item.title}" loading="lazy" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png';" />
+          <img class="card-thumb" src="${item.image_url}" alt="${item.title}" loading="lazy" />
           <div class="card-body">
             <div>
               <div class="card-title">${item.title}</div>
@@ -644,11 +647,11 @@
         });
 
         const popupContent = `
-          <img class="popup-img" src="${item.image_url}" onclick="openModal('${item.id}')" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png';" />
+          <img class="popup-img" src="${item.image_url}" onclick="openModal('${item.id}')" />
           <div class="popup-title">${item.title}</div>
           <div class="popup-sub"><i>${item.original_title}</i> (${item.year || item.century + ' ст.'})</div>
           <div><b>Заяўлена:</b> ${item.claimed_location.name}</div>
-          ${!isAuthentic ? `<div><b>Прататып:</b> ${item.actual_location.name}</div>` : ''}
+          ${!isAuthentic && item.actual_location ? `<div><b>Прататып:</b> ${item.actual_location.name}</div>` : ''}
           <a class="popup-btn" href="#" onclick="openModal('${item.id}'); return false;">Падрабязней</a>
         `;
 
@@ -726,7 +729,15 @@
       document.getElementById('modalImgLink').href = item.commons_url;
       document.getElementById('modalDesc').innerText = item.description || '';
       document.getElementById('modalClaimed').innerText = item.claimed_location.name;
-      document.getElementById('modalActual').innerText = item.actual_location.name;
+      document.getElementById('modalActual').innerText = item.actual_location ? item.actual_location.name : '—';
+      
+      const qid = item.claimed_location.wikidata || item.wikidata_id;
+      if (qid) {
+        document.getElementById('modalWikidata').innerHTML = `<a href="https://www.wikidata.org/wiki/${qid}" target="_blank" style="color: var(--accent);">${qid} (${item.claimed_location.name})</a>`;
+      } else {
+        document.getElementById('modalWikidata').innerText = '—';
+      }
+
       document.getElementById('modalArtist').innerText = item.artist || 'Невядомы';
       document.getElementById('modalPublisher').innerText = item.publisher || '—';
       document.getElementById('modalYear').innerText = item.year ? `${item.year} г. (${item.century} ст.)` : `${item.century} ст.`;
