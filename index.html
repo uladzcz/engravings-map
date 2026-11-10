@@ -421,6 +421,12 @@
       </div>
 
       <div class="filter-chips">
+        <span class="chip active" data-view="all">Усе выявы</span>
+        <span class="chip" data-view="panorama">🌄 Толькі панарамы і віды</span>
+        <span class="chip" data-view="plan">📐 Ваенныя планы і аблогі</span>
+      </div>
+
+      <div class="filter-chips">
         <span class="chip active" data-region="all">Усе рэгіёны</span>
         <span class="chip" data-region="danube">Дунай і Асманскае памежжа</span>
         <span class="chip" data-region="cee">Цэнтральна-Усходняя Еўропа</span>
@@ -521,6 +527,7 @@
     let map;
     let markersLayer;
     let linesLayer;
+    let currentFilterView = 'all';
     let currentFilterRegion = 'all';
     let currentFilterStatus = 'all';
     let currentFilterCentury = 'all';
@@ -580,6 +587,7 @@
 
     function getFilteredData() {
       return engravingsData.filter(item => {
+        const matchView = (currentFilterView === 'all') || (item.view_type === currentFilterView);
         const matchStatus = (currentFilterStatus === 'all') || (item.status === currentFilterStatus);
         const matchCentury = (currentFilterCentury === 'all') || (item.century.toString() === currentFilterCentury);
         
@@ -601,7 +609,7 @@
           (item.artist && item.artist.toLowerCase().includes(q)) ||
           (item.album && item.album.toLowerCase().includes(q));
 
-        return matchStatus && matchCentury && matchRegion && matchSearch;
+        return matchView && matchStatus && matchCentury && matchRegion && matchSearch;
       });
     }
 
@@ -637,6 +645,7 @@
             </div>
             <div class="card-meta">
               <span>${item.year ? item.year + ' г.' : item.century + ' ст.'}</span>
+              ${item.view_type === 'panorama' ? '<span style="color:#e9c46a; font-size:0.75rem; font-weight:500;">🌄 Панарама</span>' : '<span style="color:#94a3b8; font-size:0.75rem;">📐 План</span>'}
               <span class="status-badge ${badgeClass}">${item.status_label}</span>
             </div>
           </div>
@@ -771,6 +780,15 @@
     }
 
     // Filters event listeners
+    document.querySelectorAll('.filter-chips .chip[data-view]').forEach(chip => {
+      chip.onclick = () => {
+        document.querySelectorAll('.filter-chips .chip[data-view]').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        currentFilterView = chip.getAttribute('data-view');
+        render();
+      };
+    });
+
     document.querySelectorAll('.filter-chips .chip[data-region]').forEach(chip => {
       chip.onclick = () => {
         document.querySelectorAll('.filter-chips .chip[data-region]').forEach(c => c.classList.remove('active'));

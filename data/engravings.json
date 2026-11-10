@@ -1,5 +1,565 @@
 [
   {
+    "id": "trnava-peeters-1686",
+    "title": "Панарама горада Трнава (Якаб Пеэтэрс, 1686)",
+    "original_title": "Tyrnavia vulgo Dyrna (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Трнава (Tyrnavia)",
+      "lat": 48.3778,
+      "lng": 17.5862,
+      "wikidata": "Q26175"
+    },
+    "actual_location": {
+      "name": "Трнава (Tyrnavia)",
+      "lat": 48.3778,
+      "lng": 17.5862,
+      "wikidata": "Q26175"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ATyrnavia%20vulgo%20Dyrna%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/trnava-peeters-1686.jpg",
+    "description": "Панарама «Славацкага Рыма» — мураванага горада Трнава з яго вежамі і касцёламі, куды пасля падзення Эстэргама перайшла рэзідэнцыя венгерскіх архібіскупаў."
+  },
+  {
+    "id": "pecs-peeters-1686",
+    "title": "Панарама горада Печ / Фюнфкірхен (Якаб Пеэтэрс, 1686)",
+    "original_title": "Funfkirchen (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Печ (Fünfkirchen)",
+      "lat": 46.0708,
+      "lng": 18.2331,
+      "wikidata": "Q45779"
+    },
+    "actual_location": {
+      "name": "Печ (Fünfkirchen)",
+      "lat": 46.0708,
+      "lng": 18.2331,
+      "wikidata": "Q45779"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AFunfkirchen%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/pecs-peeters-1686.jpg",
+    "description": "Панарама паўднёвавенгерскага горада Печ ля падножжа гары Мечэк: відаць мінарэты і купалы знакамітай мячэці пашы Касіма, гарадскія муры і вінаграднікі."
+  },
+  {
+    "id": "gyula-peeters-1686",
+    "title": "Панарама мураванай цвярдыні Дзьюла (Якаб Пеэтэрс, 1686)",
+    "original_title": "Giula (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Дзьюла (Gyula)",
+      "lat": 46.65,
+      "lng": 21.2828,
+      "wikidata": "Q214938"
+    },
+    "actual_location": {
+      "name": "Дзьюла (Gyula)",
+      "lat": 46.65,
+      "lng": 21.2828,
+      "wikidata": "Q214938"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AGiula%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/gyula-peeters-1686.jpg",
+    "description": "Панарама адзінай захаванай цаглянай готыка-рэнесанснай крэпасці Цэнтральнай Еўропы на рацэ Кёрэш, цэнтра асманскага санджака на працягу 129 гадоў."
+  },
+  {
+    "id": "varpalota-peeters-1686",
+    "title": "Панарама крэпасці Варпалата (Якаб Пеэтэрс, 1686)",
+    "original_title": "Palotta (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Варпалата (Palota)",
+      "lat": 47.1972,
+      "lng": 18.1394,
+      "wikidata": "Q755681"
+    },
+    "actual_location": {
+      "name": "Варпалата (Palota)",
+      "lat": 47.1972,
+      "lng": 18.1394,
+      "wikidata": "Q755681"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3APalotta%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/varpalota-peeters-1686.jpg",
+    "description": "Панарама замка Палата — знакамітага фарпоста капітана Дзьёрдзя Туры, які вытрымліваў найцяжэйшыя асманскія аблогі ў XVI стагоддзі."
+  },
+  {
+    "id": "veszprem-peeters-1686",
+    "title": "Панарама замка Веспрэм (Якаб Пеэтэрс, 1686)",
+    "original_title": "Vesprin (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Веспрэм (Veszprém)",
+      "lat": 47.1,
+      "lng": 17.9167,
+      "wikidata": "Q146317"
+    },
+    "actual_location": {
+      "name": "Веспрэм (Veszprém)",
+      "lat": 47.1,
+      "lng": 17.9167,
+      "wikidata": "Q146317"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AVesprin%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/veszprem-peeters-1686.jpg",
+    "description": "Панарама старажытнага замка каралеў Веспрэм на высокай скале на поўнач ад Балатона, неаднаразова пераходзіўшага з рук у рукі паміж туркамі і хрысціянамі."
+  },
+  {
+    "id": "kostajnica-peeters-1686",
+    "title": "Панарама замка Кастайніца на рацэ Уна (Якаб Пеэтэрс, 1686)",
+    "original_title": "Castanowiz (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Кастайніца (Kostajnica)",
+      "lat": 45.2333,
+      "lng": 16.5333,
+      "wikidata": "Q396575"
+    },
+    "actual_location": {
+      "name": "Кастайніца (Kostajnica)",
+      "lat": 45.2333,
+      "lng": 16.5333,
+      "wikidata": "Q396575"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ACastanowiz%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/kostajnica-peeters-1686.jpg",
+    "description": "Панарама замка Кастайніца на рацэ Уна — ключавога ўмацавання Харвацкай ваеннай мяжы (Vojna Krajina) на памежжы з Босніяй."
+  },
+  {
+    "id": "szolnok-peeters-1686",
+    "title": "Панарама крэпасці Сольнак (Якаб Пеэтэрс, 1686)",
+    "original_title": "Solnock (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Сольнак (Solnock)",
+      "lat": 47.1747,
+      "lng": 20.1764,
+      "wikidata": "Q181276"
+    },
+    "actual_location": {
+      "name": "Сольнак (Solnock)",
+      "lat": 47.1747,
+      "lng": 20.1764,
+      "wikidata": "Q181276"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ASolnock%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/szolnok-peeters-1686.jpg",
+    "description": "Панарама замка Сольнак на зліцці Цісы і Задзівы: важны асманскі стратэгічны пункт кантролю над рачнымі шляхамі і салянымі караванамі."
+  },
+  {
+    "id": "szigetvar-peeters-1686",
+    "title": "Панарама фартэцыі Сігетвар (Якаб Пеэтэрс, 1686)",
+    "original_title": "Zieget (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Сігетвар (Szigetvár)",
+      "lat": 46.0475,
+      "lng": 17.7994,
+      "wikidata": "Q373542"
+    },
+    "actual_location": {
+      "name": "Сігетвар (Szigetvár)",
+      "lat": 46.0475,
+      "lng": 17.7994,
+      "wikidata": "Q373542"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AZieget%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/szigetvar-peeters-1686.jpg",
+    "description": "Панарама легендарнай астраўной крэпасці Сігетвар, пад сценамі якой у 1566 годзе памёр султан Сулейман Пышны падчас гераічнай абароны Міклаша Зрыні."
+  },
+  {
+    "id": "eger-peeters-1686",
+    "title": "Панарама замка Эгер (Якаб Пеэтэрс, 1686)",
+    "original_title": "Erla (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Эгер (Erlau)",
+      "lat": 47.9025,
+      "lng": 20.3772,
+      "wikidata": "Q168342"
+    },
+    "actual_location": {
+      "name": "Эгер (Erlau)",
+      "lat": 47.9025,
+      "lng": 20.3772,
+      "wikidata": "Q168342"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AErla%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/eger-peeters-1686.jpg",
+    "description": "Панарама знакамітага Эгерскага замка, праслаўленага абаронай Іштвана Доба 1552 г., а затым пераўтворанага ў цэнтр самага паўночнага асманскага вілаета з мінарэтам і цытадэллю."
+  },
+  {
+    "id": "vac-peeters-1686",
+    "title": "Панарама горада і крэпасці Вац (Якаб Пеэтэрс, 1686)",
+    "original_title": "Waitzen vulgo Vacia (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Вац (Waitzen)",
+      "lat": 47.7753,
+      "lng": 19.1311,
+      "wikidata": "Q207408"
+    },
+    "actual_location": {
+      "name": "Вац (Waitzen)",
+      "lat": 47.7753,
+      "lng": 19.1311,
+      "wikidata": "Q207408"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AWaitzen%20vulgo%20Vacia%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/vac-peeters-1686.jpg",
+    "description": "Панарама горада Вац у лукавіне Дуная пад асманскай уладай: сабор, вежы, прыбярэжныя ўмацаванні і ландшафт Дунайскага павароту."
+  },
+  {
+    "id": "komarno-peeters-1686",
+    "title": "Панарама фартэцыі Комарна (Якаб Пеэтэрс, 1686)",
+    "original_title": "Komara (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Комарна (Komorn)",
+      "lat": 47.7633,
+      "lng": 18.1283,
+      "wikidata": "Q210796"
+    },
+    "actual_location": {
+      "name": "Комарна (Komorn)",
+      "lat": 47.7633,
+      "lng": 18.1283,
+      "wikidata": "Q210796"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AKomara%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/komarno-peeters-1686.jpg",
+    "description": "Панарама дунайскай цвярдыні Комарна: Стары і Новы замкі на стрэлцы рэк Ваг і Дунай, якія туркі беспаспяхова спрабавалі ўзяць падчас некалькіх паходаў."
+  },
+  {
+    "id": "esztergom-hoefnagel-1595",
+    "title": "Панарама Эстэргама і Паркані (Георг Хёфнагель, 1595)",
+    "original_title": "Gran (Esztergom) et Párkány (Hoefnagel 1595)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Эстэргам (Gran)",
+      "lat": 47.7856,
+      "lng": 18.7403,
+      "wikidata": "Q171353"
+    },
+    "actual_location": {
+      "name": "Эстэргам (Gran)",
+      "lat": 47.7856,
+      "lng": 18.7403,
+      "wikidata": "Q171353"
+    },
+    "year": 1595,
+    "century": 16,
+    "artist": "Георг і Якаб Хёфнагель (Georg & Jacob Hoefnagel)",
+    "publisher": "Braun & Hogenberg (Köln)",
+    "album": "Civitates Orbis Terrarum",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AJacob%20Hoefnagel%20Esztergom%201595.jpg",
+    "image_url": "images/esztergom-hoefnagel-1595.jpg",
+    "description": "Шэдэўр еўрапейскай ведуты: панарама замкавай гары Эстэргама над Дунаем і асманскага фарпоста Паркані (Штурава) падчас славутай аблогі 1595 года."
+  },
+  {
+    "id": "gyor-peeters-1686",
+    "title": "Панарама фартэцыі Дзьёр / Рааб (Якаб Пеэтэрс, 1686)",
+    "original_title": "Raab (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Дзьёр (Raab)",
+      "lat": 47.6841,
+      "lng": 17.6344,
+      "wikidata": "Q134494"
+    },
+    "actual_location": {
+      "name": "Дзьёр (Raab)",
+      "lat": 47.6841,
+      "lng": 17.6344,
+      "wikidata": "Q134494"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ARaab%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/gyor-peeters-1686.jpg",
+    "description": "Панарама «Шчыта Вены» — бастыённай крэпасці Дзьёр (Яўрын / Рааб) на зліцці рэк Раба і Мошанскага Дуная, цэнтра зацятай барацьбы Габсбургаў і асманаў."
+  },
+  {
+    "id": "buda-pest-hoefnagel-1617",
+    "title": "Грандыёзная панарама Буды і Пешта (Георг Хёфнагель, 1617)",
+    "original_title": "Buda Citerioris Hungariae Caput Regni avita sedes. vulgo Ofen 1617",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Буда і Пешт",
+      "lat": 47.487,
+      "lng": 19.055,
+      "wikidata": "Q1781"
+    },
+    "actual_location": {
+      "name": "Буда і Пешт",
+      "lat": 47.487,
+      "lng": 19.055,
+      "wikidata": "Q1781"
+    },
+    "year": 1617,
+    "century": 17,
+    "artist": "Георг Хёфнагель (Georg Hoefnagel)",
+    "publisher": "Braun & Hogenberg (Köln)",
+    "album": "Civitates Orbis Terrarum (Vol. VI)",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ABuda%20Citerioris%20Hungariae%20Caput%20Regni%20avita%20sedes.%20vulgo%20Ofen%201617.jpg",
+    "image_url": "images/buda-pest-hoefnagel-1617.jpg",
+    "description": "Адна з найвялікшых рэнесансных панарам Еўропы: від Буды і Пешта з гары Гелерт, падрабязна паказаны каралеўскі палац, лазні Рудаш, мячэці і постаці венграў і туркаў на пярэднім плане."
+  },
+  {
+    "id": "buda-peeters-1686",
+    "title": "Панарама Афена / Буды з Дуная (Якаб Пеэтэрс, 1686)",
+    "original_title": "Buda (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Буда (Будапешт)",
+      "lat": 47.4983,
+      "lng": 19.0408,
+      "wikidata": "Q1781"
+    },
+    "actual_location": {
+      "name": "Буда (Будапешт)",
+      "lat": 47.4983,
+      "lng": 19.0408,
+      "wikidata": "Q1781"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ABuda%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/buda-peeters-1686.jpg",
+    "description": "Антверпенскі медзярэз з панарамай каралеўскага замка на Будайскай гары, габрэйскага і турэцкага кварталаў і рачной пераправы ў Пешт падчас асманскага валадарства."
+  },
+  {
+    "id": "varad-peeters-1686",
+    "title": "Панарама крэпасці Варадзін / Арадзя (Якаб Пеэтэрс, 1686)",
+    "original_title": "Waradin (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Арадзя / Надьварад (Waradin)",
+      "lat": 47.0722,
+      "lng": 21.9211,
+      "wikidata": "Q93358"
+    },
+    "actual_location": {
+      "name": "Арадзя / Надьварад (Waradin)",
+      "lat": 47.0722,
+      "lng": 21.9211,
+      "wikidata": "Q93358"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AWaradin%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/varad-peeters-1686.jpg",
+    "description": "Маляўнічая панарама пяцікутнага бастыённага замка Вялікага Варадзіна (Nagyvárad / Oradea), важнага фарпоста на мяжы Трансільваніі і асманскіх уладанняў."
+  },
+  {
+    "id": "szeged-peeters-1686",
+    "title": "Панарама крэпасці Сегед на Цісе (Якаб Пеэтэрс, 1686)",
+    "original_title": "Segedin (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Сегед (Segedin)",
+      "lat": 46.25,
+      "lng": 20.1667,
+      "wikidata": "Q81581"
+    },
+    "actual_location": {
+      "name": "Сегед (Segedin)",
+      "lat": 46.25,
+      "lng": 20.1667,
+      "wikidata": "Q81581"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ASegedin%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/szeged-peeters-1686.jpg",
+    "description": "Перспектыўны від турэцкага Сегеда з боку ракі Ціса: мураваны замак, мячэці з паўмесяцамі і рачныя прыстані напярэдадні вызвалення 1686 года."
+  },
+  {
+    "id": "kanizsa-peeters-1686",
+    "title": "Панарама воднай крэпасці Каніжа (Якаб Пеэтэрс, 1686)",
+    "original_title": "Canisia (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Надзьканіжа (Canisia)",
+      "lat": 46.4558,
+      "lng": 16.9975,
+      "wikidata": "Q14424"
+    },
+    "actual_location": {
+      "name": "Надзьканіжа (Canisia)",
+      "lat": 46.4558,
+      "lng": 16.9975,
+      "wikidata": "Q14424"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ACanisia%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/kanizsa-peeters-1686.jpg",
+    "description": "Панарама знакамітай асманскай цвярдыні Каніжа сярод непраходных балот: паказаны масты, бастыёны і вежы ключавой памежнай крэпасці паўднёва-заходняга фронту."
+  },
+  {
+    "id": "timisoara-peeters-1686",
+    "title": "Панарама фартэцыі Тэмешвар (Якаб Пеэтэрс, 1686)",
+    "original_title": "Temeswar (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Тымішаара (Temeswar)",
+      "lat": 45.7597,
+      "lng": 21.23,
+      "wikidata": "Q83404"
+    },
+    "actual_location": {
+      "name": "Тымішаара (Temeswar)",
+      "lat": 45.7597,
+      "lng": 21.23,
+      "wikidata": "Q83404"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ATemeswar%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/timisoara-peeters-1686.jpg",
+    "description": "Панарамны від сталіцы Баната — турэцкага эялета Тэмешвар: бастыёны, мінарэты мячэцей, водаправодныя збудаванні на рацэ Бега і турэцкі гарнізон."
+  },
+  {
+    "id": "smederevo-peeters-1686",
+    "title": "Панарама крэпасці Смедэрэва (Якаб Пеэтэрс, 1686)",
+    "original_title": "Sendrae (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Смедэрэва (Sendrae)",
+      "lat": 44.6633,
+      "lng": 20.9289,
+      "wikidata": "Q190774"
+    },
+    "actual_location": {
+      "name": "Смедэрэва (Sendrae)",
+      "lat": 44.6633,
+      "lng": 20.9289,
+      "wikidata": "Q190774"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ASendrae%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/smederevo-peeters-1686.jpg",
+    "description": "Рэдкая медзярэзная панарама Смедэрэўскай фартэцыі над Дунаем часоў асманскага панавання. Паказаны велічныя вежы дэспата Бранкавіча, рачныя судны і прырэчныя ўмацаванні."
+  },
+  {
     "id": "belgrade-nypoort-1688",
     "title": "Аблога і штурм Бялграда 1688 г. (Юстус ван дэн Нейпарт)",
     "original_title": "Belgradum a Christianis expugnatum A. 1688",
@@ -24,7 +584,8 @@
     "album": "Гістарычныя лісты Вялікай турэцкай вайны",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ASiege%20of%20Belgr%C3%A1d-1688-by%20Nypoort.jpg",
     "image_url": "images/belgrade-nypoort-1688.jpg",
-    "description": "Манументальная гравюра фламандскага майстра Юстуса ван дэн Нейпарта з панарамай гераічнага штурму крэпасці Бялград войскамі курфюрста Максіміліяна Эмануэля Баварскага 6 верасня 1688 года."
+    "description": "Манументальная гравюра фламандскага майстра Юстуса ван дэн Нейпарта з панарамай гераічнага штурму крэпасці Бялград войскамі курфюрста Максіміліяна Эмануэля Баварскага 6 верасня 1688 года.",
+    "view_type": "plan"
   },
   {
     "id": "belgrade-leopold-1717",
@@ -51,7 +612,8 @@
     "album": "Аўгсбургскія ваенныя аркушы (Kriegs-Theatrum)",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ABelgrad-1717-J-F-Leopold.jpg",
     "image_url": "images/belgrade-leopold-1717.jpg",
-    "description": "Вядомая аўгсбургская гравюра з панарамай другой аблогі і разгрому турэцкай арміі прынцам Яўгенам Савойскім у 1717 годзе, з дэталёвым планам умацаванняў і батарэй на Дунаі і Саве."
+    "description": "Вядомая аўгсбургская гравюра з панарамай другой аблогі і разгрому турэцкай арміі прынцам Яўгенам Савойскім у 1717 годзе, з дэталёвым планам умацаванняў і батарэй на Дунаі і Саве.",
+    "view_type": "panorama"
   },
   {
     "id": "belgrade-peeters-1686",
@@ -78,7 +640,8 @@
     "album": "Description des principales villes... sous l'obéissance du Grand Turc",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ABelgrado%20-%20Peeters%20Jacob%20-%201686.jpg",
     "image_url": "images/belgrade-peeters-1686.jpg",
-    "description": "Антверпенская медзярэзная панарама Бялграда з боку Дуная з выявай мінарэтаў, турэцкіх бастыёнаў і замка Калемегдан напярэдадні аўстрыйскай аблогі."
+    "description": "Антверпенская медзярэзная панарама Бялграда з боку Дуная з выявай мінарэтаў, турэцкіх бастыёнаў і замка Калемегдан напярэдадні аўстрыйскай аблогі.",
+    "view_type": "panorama"
   },
   {
     "id": "belgrade-adlerschwung-1688",
@@ -105,7 +668,8 @@
     "album": "Theatrum Europaeum",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ABelgrad-1688-by%20Adlerschwung.jpg",
     "image_url": "images/belgrade-adlerschwung-1688.jpg",
-    "description": "Нюрнбергская гравюра з сумеснай выявай тапаграфічнага плана аблогі 1688 г., размяшчэння баварскіх палкоў і перспектыўнага віду крэпасці."
+    "description": "Нюрнбергская гравюра з сумеснай выявай тапаграфічнага плана аблогі 1688 г., размяшчэння баварскіх палкоў і перспектыўнага віду крэпасці.",
+    "view_type": "plan"
   },
   {
     "id": "belgrade-weissenburg-1600",
@@ -132,7 +696,8 @@
     "album": "Ungarische Chronica",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ABelgrade%20%28Weissenburg%29%20%281600%29.jpg",
     "image_url": "images/belgrade-weissenburg-1600.jpg",
-    "description": "Ранняя нямецкая гравюра рубяжа XVI–XVII стст., якая паказвае верхні і ніжні горад Бялграда пад уладай асманаў, зліццё рэк Савы і Дуная і караванныя шляхі."
+    "description": "Ранняя нямецкая гравюра рубяжа XVI–XVII стст., якая паказвае верхні і ніжні горад Бялграда пад уладай асманаў, зліццё рэк Савы і Дуная і караванныя шляхі.",
+    "view_type": "panorama"
   },
   {
     "id": "belgrade-griechisch-weissenburg-plan",
@@ -159,7 +724,8 @@
     "album": "Kriegs-Karten der Türkenkriege",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3AGRIECHISCH%20WEISSENBURG%20BELAGERT.jpg",
     "image_url": "images/belgrade-griechisch-weissenburg-plan.jpg",
-    "description": "Медзярэзны ваенны план крэпасных збудаванняў Бялграда, рачных астравоў і ліній цыркумвалацыі падчас баёў за памежны вузел Сербіі."
+    "description": "Медзярэзны ваенны план крэпасных збудаванняў Бялграда, рачных астравоў і ліній цыркумвалацыі падчас баёў за памежны вузел Сербіі.",
+    "view_type": "plan"
   },
   {
     "id": "semlin-zemun-1789",
@@ -186,7 +752,8 @@
     "album": "Karten der k.k. Militärgrenze",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3APlan%20der%20Stadt%20Semlin%20wie%20solche%20im%20Jahr%20789%20mit%20ihren%20Verschanzungen%20und%20Retranchements%20bestanden%20ist%20%28FL39696866%203705629%29.jpg",
     "image_url": "images/semlin-zemun-1789.jpg",
-    "description": "Падрабязнейшы ваенны план аўстрыйскага фарпоста Землін на супрацьлеглым ад Бялграда беразе Савы з бастыённымі рэтраншэментамі і каранцінным лагерам Вайсэнбургскай мяжы."
+    "description": "Падрабязнейшы ваенны план аўстрыйскага фарпоста Землін на супрацьлеглым ад Бялграда беразе Савы з бастыённымі рэтраншэментамі і каранцінным лагерам Вайсэнбургскай мяжы.",
+    "view_type": "plan"
   },
   {
     "id": "smederevo-siege-1693",
@@ -213,7 +780,8 @@
     "album": "Theatrum Europaeum",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3AImperial%20siege%20of%20Smederevo%20%28Semendria%29%2C%20c.%201693.jpg",
     "image_url": "images/smederevo-siege-1693.jpg",
-    "description": "Гістарычная гравюра часоў Вялікай турэцкай вайны: магутная трохкутная сярэднявечная крэпасць дэспата Джураджа Бранкавіча на Дунаі, атакаваная імперскімі войскамі."
+    "description": "Гістарычная гравюра часоў Вялікай турэцкай вайны: магутная трохкутная сярэднявечная крэпасць дэспата Джураджа Бранкавіча на Дунаі, атакаваная імперскімі войскамі.",
+    "view_type": "panorama"
   },
   {
     "id": "smederevo-donau-ansicht",
@@ -240,7 +808,8 @@
     "album": "Malerische Ansichten der Donau und des Orients",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ADonau-Ansichten-%20T%C3%BCrkei-%20Stadt%20und%20Festung%20Semendria.jpg",
     "image_url": "images/smederevo-donau-ansicht.jpg",
-    "description": "Рамантычны перспектыўны від Смедэрэўскага замка і вежаў над дунайскімі плёсамі на памежжы з Асманскай імперыяй."
+    "description": "Рамантычны перспектыўны від Смедэрэўскага замка і вежаў над дунайскімі плёсамі на памежжы з Асманскай імперыяй.",
+    "view_type": "panorama"
   },
   {
     "id": "petrovaradin-battle-1716",
@@ -267,7 +836,8 @@
     "album": "Theatrum Belli in Hungaria",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ABattle-of-petrovaradin-map-1716.jpg",
     "image_url": "images/petrovaradin-battle-1716.jpg",
-    "description": "Гравіраваная карта грандыёзнай бітвы пры Петварадыне 5 жніўня 1716 г., дзе прынц Савойскі разграміў асманскую армію вялікага візіра Дамат Алі-пашы, а таксама план бастыённай цытадэлі."
+    "description": "Гравіраваная карта грандыёзнай бітвы пры Петварадыне 5 жніўня 1716 г., дзе прынц Савойскі разграміў асманскую армію вялікага візіра Дамат Алі-пашы, а таксама план бастыённай цытадэлі.",
+    "view_type": "panorama"
   },
   {
     "id": "petrovaradin-prospect",
@@ -294,7 +864,8 @@
     "album": "Curioses Staats- und Kriegs-Theatrum",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3APetrovaradin%20BV044698772.jpg",
     "image_url": "images/petrovaradin-prospect.jpg",
-    "description": "Перспектыўны від непрыступнай скальнай крэпасці Петварадын на Дунаі («Венгерскага Гібралтара») з пантонным мостам да Новага Сада."
+    "description": "Перспектыўны від непрыступнай скальнай крэпасці Петварадын на Дунаі («Венгерскага Гібралтара») з пантонным мостам да Новага Сада.",
+    "view_type": "panorama"
   },
   {
     "id": "timisoara-bodenehr-1716",
@@ -321,7 +892,8 @@
     "album": "Curioses Staats- und Kriegs-Theatrum in Ungarn",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ATimisoara%20Temesvar%20Temeswar%201716%20Gabriel%20Bodenehr.jpg",
     "image_url": "images/timisoara-bodenehr-1716.jpg",
-    "description": "Выдатная гравюра Габрыэля Бодэнера: план і панарама сталіцы Баната Тэмешвара ў момант капітуляцыі турэцкага гарнізона перад войскамі прынца Савойскага ў 1716 годзе."
+    "description": "Выдатная гравюра Габрыэля Бодэнера: план і панарама сталіцы Баната Тэмешвара ў момант капітуляцыі турэцкага гарнізона перад войскамі прынца Савойскага ў 1716 годзе.",
+    "view_type": "panorama"
   },
   {
     "id": "timisoara-fortress-1788",
@@ -348,7 +920,8 @@
     "album": "Banater Festungs-Atlas",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3AThe%20fortress%20of%20Temesv%C3%A1r%20in%201788.jpg",
     "image_url": "images/timisoara-fortress-1788.jpg",
-    "description": "Геаметрычны план адной з самых дасканалых зоркападобных фартэцый Габсбургскай манархіі на ўсходнім памежжы."
+    "description": "Геаметрычны план адной з самых дасканалых зоркападобных фартэцый Габсбургскай манархіі на ўсходнім памежжы.",
+    "view_type": "panorama"
   },
   {
     "id": "vidin-baba-vida-1740",
@@ -375,7 +948,8 @@
     "album": "Kriegs-Karten des Donau-Stroms",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ACa.%201740%20map%20of%20Vidin%20and%20the%20Baba%20Vida%20Fortress.jpg",
     "image_url": "images/vidin-baba-vida-1740.jpg",
-    "description": "Гравіраваны план і профіль ключавой турэцкай цвярдыні на ніжнім Дунаі — крэпасці Баба Віда ў Відзіне, цэнтра пастаянных баёў паміж Асманскай і Габсбургскай імперыямі."
+    "description": "Гравіраваны план і профіль ключавой турэцкай цвярдыні на ніжнім Дунаі — крэпасці Баба Віда ў Відзіне, цэнтра пастаянных баёў паміж Асманскай і Габсбургскай імперыямі.",
+    "view_type": "panorama"
   },
   {
     "id": "marsigli-danube-osijek-1726",
@@ -402,7 +976,8 @@
     "album": "Danubius Pannonico-Mysicus (Том II)",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3AEsseg%20%28%C3%96sseg%29%2C%20Buginovitz%2C%20Erdut%2C%20Bucovar%20in%20Danubius%20Pannonico-Mysicus%201726%20by%20Marsigli.png",
     "image_url": "images/marsigli-danube-osijek-1726.png",
-    "description": "Унікальная гравюра з фундаментальнага 6-томнага атласа графа Марсільі: фартэцыя Осіек (Tvrđa) са знакамітым драўляным мастом Сулеймана Вялікапышнага праз балоты Дравы, а таксама замкі Эрдут і Вукавар."
+    "description": "Унікальная гравюра з фундаментальнага 6-томнага атласа графа Марсільі: фартэцыя Осіек (Tvrđa) са знакамітым драўляным мастом Сулеймана Вялікапышнага праз балоты Дравы, а таксама замкі Эрдут і Вукавар.",
+    "view_type": "panorama"
   },
   {
     "id": "marsigli-danube-komarom-1726",
@@ -429,7 +1004,8 @@
     "album": "Danubius Pannonico-Mysicus",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3AComaromium%20vulgo%20Comorn%20in%20Danubius%20Pannonico-Mysicus%201726%20by%20Marsigli.png",
     "image_url": "images/marsigli-danube-komarom-1726.png",
-    "description": "Дэталёвы геаграфічны і фартыфікацыйны план знакамітай Старой і Новай фартэцыі Комарна на зліцці Дуная і Вага, якую туркі ніводнага разу не здолелі захапіць."
+    "description": "Дэталёвы геаграфічны і фартыфікацыйны план знакамітай Старой і Новай фартэцыі Комарна на зліцці Дуная і Вага, якую туркі ніводнага разу не здолелі захапіць.",
+    "view_type": "panorama"
   },
   {
     "id": "marsigli-danube-buda-1726",
@@ -456,7 +1032,8 @@
     "album": "Danubius Pannonico-Mysicus",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ABuda%2C%20Pest%20and%20Csepel%20Island%20in%20Danubius%20Pannonico-Mysicus%201726%20by%20Marsigli.jpg",
     "image_url": "images/marsigli-danube-buda-1726.jpg",
-    "description": "Гравіраваны гідраграфічны і тапаграфічны план ракі Дунай вакол замкавай гары Буды, Пешта і вострава Чэпель, створаны пасля вызвалення ад асманаў."
+    "description": "Гравіраваны гідраграфічны і тапаграфічны план ракі Дунай вакол замкавай гары Буды, Пешта і вострава Чэпель, створаны пасля вызвалення ад асманаў.",
+    "view_type": "panorama"
   },
   {
     "id": "buda-boethius-1686",
@@ -483,7 +1060,8 @@
     "album": "Des Verwirrten Römischen Reichs Zustand (Kriegs-Helm)",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ABoethius%20Buda%201686%20Prospect%20vom%20Aufgang.png",
     "image_url": "images/buda-boethius-1686.png",
-    "description": "Гістарычная панарама штурму Будайскага замка войскамі Свяшчэннай лігі 2 верасня 1686 г., які паклаў канец 145-гадоваму асманскаму валадарству ў Венгрыі."
+    "description": "Гістарычная панарама штурму Будайскага замка войскамі Свяшчэннай лігі 2 верасня 1686 г., які паклаў канец 145-гадоваму асманскаму валадарству ў Венгрыі.",
+    "view_type": "panorama"
   },
   {
     "id": "buda-vanloon-1686",
@@ -510,7 +1088,8 @@
     "album": "Les Forces de l'Europe",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ABuda%201686-Harmanus%20van%20Loon.jpg",
     "image_url": "images/buda-vanloon-1686.jpg",
-    "description": "Мастацкая медзярэзная панарама замкавай гары і разбураных сцен Афенскага эялета з артылерыйскімі пазіцыямі хрысціянскіх саюзнікаў."
+    "description": "Мастацкая медзярэзная панарама замкавай гары і разбураных сцен Афенскага эялета з артылерыйскімі пазіцыямі хрысціянскіх саюзнікаў.",
+    "view_type": "panorama"
   },
   {
     "id": "mohilow-bodenehr-pseudo",
@@ -536,7 +1115,8 @@
     "album": "Невядомы зборнік панарам / Theatrum",
     "commons_url": "https://commons.wikimedia.org/wiki/File:Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_(XVIII)_(2).jpg",
     "image_url": "images/mohilow-bodenehr-pseudo.jpg",
-    "description": "Знакамітая памылковая гравюра са стужкай «Prospect der Stadt Mohilow». На ёй паказаны манументальны мураваны рэнесансны палац з вуглавымі вежамі-рандэлямі і шчыльная заходнееўрапейская забудова са ступеньчатымі шчыпцамі, якая не адпавядае рэальнаму драўляна-земляному замку і тапаграфіі Магілёва на Дняпры. Пошук дакладнага еўрапейскага першаўзору працягваецца."
+    "description": "Знакамітая памылковая гравюра са стужкай «Prospect der Stadt Mohilow». На ёй паказаны манументальны мураваны рэнесансны палац з вуглавымі вежамі-рандэлямі і шчыльная заходнееўрапейская забудова са ступеньчатымі шчыпцамі, якая не адпавядае рэальнаму драўляна-земляному замку і тапаграфіі Магілёва на Дняпры. Пошук дакладнага еўрапейскага першаўзору працягваецца.",
+    "view_type": "panorama"
   },
   {
     "id": "grodno-bodenehr-composite",
@@ -562,7 +1142,8 @@
     "album": "Curioses Staats- und Kriegs-Theatrum in Polen",
     "commons_url": "https://commons.wikimedia.org/wiki/File:GRODNO_1709.jpg",
     "image_url": "images/grodno-bodenehr-composite.jpg",
-    "description": "Вядомая памылковая выява Гродна з выдання Габрыэля Бодэнера. Даследчыкі выявілі, што за прататып і кампазіцыйную аснову для гэтага віду былі ўзятыя выявы нямецкага горада Гюстраў (Güsterow, 1653) і сілезскага замка, скамбінаваныя з фантазійнымі мурамі."
+    "description": "Вядомая памылковая выява Гродна з выдання Габрыэля Бодэнера. Даследчыкі выявілі, што за прататып і кампазіцыйную аснову для гэтага віду былі ўзятыя выявы нямецкага горада Гюстраў (Güsterow, 1653) і сілезскага замка, скамбінаваныя з фантазійнымі мурамі.",
+    "view_type": "panorama"
   },
   {
     "id": "guestrow-merian-1653",
@@ -588,7 +1169,8 @@
     "album": "Topographia Saxoniae Inferioris",
     "commons_url": "https://commons.wikimedia.org/wiki/File:G%C3%BCsterow_(Merian).jpg",
     "image_url": "images/guestrow-merian-1653.jpg",
-    "description": "Арыгінальная гравюра Маціяса Мерыяна з выданнем рэзідэнцыі Гюстраў у Мекленбургу (1653). Менавіта гэты від паслужыў першаўзорам для памылковай панарамы Гродна ў нямецкіх атласах XVIII стагоддзя."
+    "description": "Арыгінальная гравюра Маціяса Мерыяна з выданнем рэзідэнцыі Гюстраў у Мекленбургу (1653). Менавіта гэты від паслужыў першаўзорам для памылковай панарамы Гродна ў нямецкіх атласах XVIII стагоддзя.",
+    "view_type": "panorama"
   },
   {
     "id": "grodno-zundt-1568",
@@ -614,7 +1196,8 @@
     "album": "Асобны насценны аркуш / перавыдадзена ў Civitates Orbis Terrarum (1575)",
     "commons_url": "https://commons.wikimedia.org/wiki/File:16th-Century_View_of_Grodno_-_History_and_Archaeology_Museum_-_Novi_Zamak_(Old_Castle)_-_Belarus_(27673823842).jpg",
     "image_url": "images/grodno-zundt-1568.jpg",
-    "description": "Першая дакладная і падрабязная панарама беларускага горада ў еўрапейскай графіцы. Паказаны прыезд замежных пасольстваў на сойм 1567 г. пры Жыгімонце Аўгусце, панарама Старога замка, Фары Вітаўта і Каложы."
+    "description": "Першая дакладная і падрабязная панарама беларускага горада ў еўрапейскай графіцы. Паказаны прыезд замежных пасольстваў на сойм 1567 г. пры Жыгімонце Аўгусце, панарама Старога замка, Фары Вітаўта і Каложы.",
+    "view_type": "panorama"
   },
   {
     "id": "grodno-makowski-1600",
@@ -640,7 +1223,8 @@
     "album": "Асобная медзярытная панарама",
     "commons_url": "https://commons.wikimedia.org/wiki/File:Grodna_1600.jpg",
     "image_url": "images/grodno-makowski-1600.jpg",
-    "description": "Фундаментальная графічная крыніца эпохі Стэфана Баторыя. Выключна падрабязны рэнесансны выгляд рэзідэнцыі караля, замкаў і гарадской ратушы з галандскімі шчыпцамі."
+    "description": "Фундаментальная графічная крыніца эпохі Стэфана Баторыя. Выключна падрабязны рэнесансны выгляд рэзідэнцыі караля, замкаў і гарадской ратушы з галандскімі шчыпцамі.",
+    "view_type": "panorama"
   },
   {
     "id": "mohilow-vashchanka-1702",
@@ -666,7 +1250,8 @@
     "album": "Кніга жыцій святых (Магілёў, 1702)",
     "commons_url": "https://commons.wikimedia.org/wiki/File:Mahilo%C5%AD._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_(V._Va%C5%A1%C4%8Danka,_1702).jpg",
     "image_url": "images/mohilow-vashchanka-1702.jpg",
-    "description": "Сапраўдная аўтэнтычная гравюра магілёўскай школы гравюры пачатку XVIII ст. Выразна бачныя драўляныя ўмацаванні горада, Спаская і Васкрасенская цэрквы, вежа ратушы."
+    "description": "Сапраўдная аўтэнтычная гравюра магілёўскай школы гравюры пачатку XVIII ст. Выразна бачныя драўляныя ўмацаванні горада, Спаская і Васкрасенская цэрквы, вежа ратушы.",
+    "view_type": "panorama"
   },
   {
     "id": "brest-dahlbergh-1657",
@@ -692,7 +1277,8 @@
     "album": "De rebus a Carolo Gustavo Sueciae Rege gestis",
     "commons_url": "https://commons.wikimedia.org/wiki/File:Biera%C5%9Bcie_Lito%C5%ADskaje._%D0%91%D0%B5%D1%80%D0%B0%D1%81%D1%8C%D1%86%D0%B5_%D0%9B%D1%96%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D0%B5_%28E._Dahlbergh%2C_1657%29_%282%29.jpg",
     "image_url": "images/brest-dahlbergh-1657.jpg",
-    "description": "Дакладны план і перспектыўны від старога Брэста да пабудовы крэпасці XIX ст. Паказаны Брэсцкі замак на востраве, касцёлы і сінагога."
+    "description": "Дакладны план і перспектыўны від старога Брэста да пабудовы крэпасці XIX ст. Паказаны Брэсцкі замак на востраве, касцёлы і сінагога.",
+    "view_type": "panorama"
   },
   {
     "id": "polotsk-pacholowiecki-1579",
@@ -718,7 +1304,8 @@
     "album": "Civitates Orbis Terrarum",
     "commons_url": "https://commons.wikimedia.org/wiki/File:Po%C5%82acak._%D0%9F%D0%BE%D0%BB%D0%B0%D1%86%D0%B0%D0%BA_%281579%29.jpg",
     "image_url": "images/polotsk-pacholowiecki-1579.jpg",
-    "description": "Дакладная ваенна-тапаграфічная гравюра вызвалення Полацка войскамі Рэчы Паспалітай у 1579 годзе. Падрабязна зафіксаваныя Верхні, Ніжні і Стралецкі замкі."
+    "description": "Дакладная ваенна-тапаграфічная гравюра вызвалення Полацка войскамі Рэчы Паспалітай у 1579 годзе. Падрабязна зафіксаваныя Верхні, Ніжні і Стралецкі замкі.",
+    "view_type": "plan"
   },
   {
     "id": "vilnius-braun-1581",
@@ -745,7 +1332,8 @@
     "album": "Civitates Orbis Terrarum (Vol. III)",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ACivitates%20orbis%20terrarum%2C%201581.%20Vilna.%2027%20die%20dir%20garde.jpg",
     "image_url": "images/vilnius-braun-1581.jpg",
-    "description": "Першая класічная еўрапейская панарама сталіцы Вялікага Княства Літоўскага. Падрабязна паказаны Верхні і Ніжні замкі, кафедральны сабор, ратуша і шматлікія храмы Вільні."
+    "description": "Першая класічная еўрапейская панарама сталіцы Вялікага Княства Літоўскага. Падрабязна паказаны Верхні і Ніжні замкі, кафедральны сабор, ратуша і шматлікія храмы Вільні.",
+    "view_type": "panorama"
   },
   {
     "id": "smolensk-hondius-1636",
@@ -772,6 +1360,7 @@
     "album": "Грандыёзны 16-аркушны план Смаленскай вайны",
     "commons_url": "https://commons.wikimedia.org/wiki/File%3ASmolensk-1632-1634.jpg",
     "image_url": "images/smolensk-hondius-1636.jpg",
-    "description": "Манументальная гравюра вядомага галандска-гданьскага майстра Вільгельма Гондыуса, прысвечаная перамозе Уладзіслава IV пад Смаленскам. Надзвычайная тапаграфічная дакладнасць сцен, вежаў і Дняпра."
+    "description": "Манументальная гравюра вядомага галандска-гданьскага майстра Вільгельма Гондыуса, прысвечаная перамозе Уладзіслава IV пад Смаленскам. Надзвычайная тапаграфічная дакладнасць сцен, вежаў і Дняпра.",
+    "view_type": "panorama"
   }
 ]
