@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>Карта гістарычных гравюр і фартэцый | Бялград, Дунай і Еўропа (XVI–XVIII ст.)</title>
   
   <!-- Leaflet CSS & JS -->
@@ -564,10 +567,10 @@
       linesLayer = L.layerGroup().addTo(map);
     }
 
-    // Load JSON data
+    // Load JSON data with cache-busting
     async function loadData() {
       try {
-        const resp = await fetch('data/engravings.json');
+        const resp = await fetch('data/engravings.json?t=' + new Date().getTime());
         engravingsData = await resp.json();
         render();
       } catch (err) {
