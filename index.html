@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Карта гістарычных гравюр і панарам | Engravings Map</title>
+  <title>Карта гістарычных гравюр і фартэцый | Бялград, Дунай і Еўропа (XVI–XVIII ст.)</title>
   
   <!-- Leaflet CSS & JS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -408,17 +408,23 @@
   <!-- Sidebar -->
   <aside id="sidebar">
     <header>
-      <h1>Гістарычныя гравюры і панарамы</h1>
-      <p>Інтэрактыўная карта арыгінальных і псеўда-выяваў гарадоў</p>
+      <h1>Гістарычныя гравюры і фартэцыі</h1>
+      <p>Асманскае памежжа (Бялград, Дунай, Банат) і еўрапейскія гарады</p>
     </header>
 
     <div class="filters-section">
       <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Пошук па горадзе, назве ці аўтару..." />
+        <input type="text" id="searchInput" placeholder="Пошук (Бялград, Тэмешвар, Дунай, аўтар...)" />
       </div>
 
       <div class="filter-chips">
-        <span class="chip active" data-status="all">Усе выявы</span>
+        <span class="chip active" data-region="all">Усе рэгіёны</span>
+        <span class="chip" data-region="danube">Дунай і Асманскае памежжа</span>
+        <span class="chip" data-region="cee">Цэнтральна-Усходняя Еўропа</span>
+      </div>
+
+      <div class="filter-chips">
+        <span class="chip active" data-status="all">Усе тыпы</span>
         <span class="chip" data-status="authentic">Аўтэнтычныя</span>
         <span class="chip" data-status="pseudo">Памылковыя / Псеўда</span>
       </div>
@@ -512,15 +518,16 @@
     let map;
     let markersLayer;
     let linesLayer;
+    let currentFilterRegion = 'all';
     let currentFilterStatus = 'all';
     let currentFilterCentury = 'all';
     let searchQuery = '';
 
-    // Init Leaflet Map using Esri & OSM basemaps with NO API key requirements
+    // Init Leaflet Map using Esri basemaps with NO API key requirements
     function initMap() {
       map = L.map('map', {
-        center: [53.5, 23.0],
-        zoom: 6,
+        center: [45.2, 20.2],
+        zoom: 7,
         zoomControl: true
       });
 
@@ -573,6 +580,15 @@
         const matchStatus = (currentFilterStatus === 'all') || (item.status === currentFilterStatus);
         const matchCentury = (currentFilterCentury === 'all') || (item.century.toString() === currentFilterCentury);
         
+        let matchRegion = true;
+        if (currentFilterRegion === 'danube') {
+          // Danube / Ottoman frontier (Balkans, Serbia, Banat, Hungary)
+          matchRegion = item.claimed_location.lat <= 48.0;
+        } else if (currentFilterRegion === 'cee') {
+          // Central-Eastern Europe (Belarus, Lithuania, Poland, Baltic)
+          matchRegion = item.claimed_location.lat > 48.0;
+        }
+
         const q = searchQuery.toLowerCase().trim();
         const matchSearch = !q || 
           item.title.toLowerCase().includes(q) ||
@@ -582,7 +598,7 @@
           (item.artist && item.artist.toLowerCase().includes(q)) ||
           (item.album && item.album.toLowerCase().includes(q));
 
-        return matchStatus && matchCentury && matchSearch;
+        return matchStatus && matchCentury && matchRegion && matchSearch;
       });
     }
 
@@ -752,6 +768,24 @@
     }
 
     // Filters event listeners
+    document.querySelectorAll('.filter-chips .chip[data-region]').forEach(chip => {
+      chip.onclick = () => {
+        document.querySelectorAll('.filter-chips .chip[data-region]').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        currentFilterRegion = chip.getAttribute('data-region');
+        
+        if (currentFilterRegion === 'danube') {
+          map.flyTo([45.2, 20.2], 7);
+        } else if (currentFilterRegion === 'cee') {
+          map.flyTo([53.8, 26.0], 6);
+        } else {
+          map.flyTo([48.0, 21.0], 5);
+        }
+
+        render();
+      };
+    });
+
     document.querySelectorAll('.filter-chips .chip[data-status]').forEach(chip => {
       chip.onclick = () => {
         document.querySelectorAll('.filter-chips .chip[data-status]').forEach(c => c.classList.remove('active'));
