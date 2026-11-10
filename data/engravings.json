@@ -1,5 +1,341 @@
 [
   {
+    "id": "tata-hoefnagel-1595",
+    "title": "Панарама воднай крэпасці Тата (Георг Хёфнагель, 1595)",
+    "original_title": "Dotis (Tata) - Hoefnagel 1595",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Тата (Dotis)",
+      "lat": 47.6533,
+      "lng": 18.3183,
+      "wikidata": "Q271257"
+    },
+    "actual_location": {
+      "name": "Тата (Dotis)",
+      "lat": 47.6533,
+      "lng": 18.3183,
+      "wikidata": "Q271257"
+    },
+    "year": 1595,
+    "century": 16,
+    "artist": "Георг Хёфнагель (Georg Hoefnagel)",
+    "publisher": "Braun & Hogenberg (Köln)",
+    "album": "Civitates Orbis Terrarum (Vol. VI)",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Tata_G_Hoefnagel.jpg",
+    "image_url": "images/tata-hoefnagel-1595.jpg",
+    "description": "Выдатны перспектыўны від замка і возера Тата, узятага штурмам хрысціянскімі войскамі пры дапамозе новай падрыўной петарды ў 1597 годзе."
+  },
+  {
+    "id": "constantinople-peeters-1686",
+    "title": "Грандыёзная панарама Канстанцінопаля / Стамбула (Якаб Пеэтэрс, 1686)",
+    "original_title": "Constantinopelen (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Стамбул",
+      "lat": 41.01,
+      "lng": 28.960277777778,
+      "wikidata": "Q406"
+    },
+    "actual_location": {
+      "name": "Стамбул",
+      "lat": 41.01,
+      "lng": 28.960277777778,
+      "wikidata": "Q406"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AConstantinopelen%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/constantinople-peeters-1686.jpg",
+    "description": "Шыкоўная панарама сталіцы Асманскай імперыі цераз бухту Залаты Рог: бачны мячэць Султанахмет, Сафійскі сабор, палац Тапкапы і сотні караблёў."
+  },
+  {
+    "id": "dardanelles-peeters-1686",
+    "title": "Панарама замкаў праліва Дарданэлы (Якаб Пеэтэрс, 1686)",
+    "original_title": "Gli Dardanelli (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Правінцыя Чанакале",
+      "lat": 40.150555555555556,
+      "lng": 26.41111111111111,
+      "wikidata": "Q47813"
+    },
+    "actual_location": {
+      "name": "Правінцыя Чанакале",
+      "lat": 40.150555555555556,
+      "lng": 26.41111111111111,
+      "wikidata": "Q47813"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AGli%20Dardanelli%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/dardanelles-peeters-1686.jpg",
+    "description": "Маляўнічая панарама асманавых замкаў Сестус і Абідас (Кале-і Султаніе) на берагах Дарданэлаў з галернымі флатамі."
+  },
+  {
+    "id": "chania-peeters-1686",
+    "title": "Панарама горада і порта Ханья (Якаб Пеэтэрс, 1686)",
+    "original_title": "Canea in Candia (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Ханья",
+      "lat": 35.516666666667,
+      "lng": 24.016666666667,
+      "wikidata": "Q182299"
+    },
+    "actual_location": {
+      "name": "Ханья",
+      "lat": 35.516666666667,
+      "lng": 24.016666666667,
+      "wikidata": "Q182299"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ACanea%20in%20Candia%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/chania-peeters-1686.jpg",
+    "description": "Панарама бастыённага порта і крэпасці Ханья на Крыце, заваяванай асманамі пасля цяжкай аблогі 1645 года."
+  },
+  {
+    "id": "koroni-peeters-1686",
+    "title": "Панарама крэпасці Кароні — «Вока Венецыі» (Якаб Пеэтэрс, 1686)",
+    "original_title": "Coron (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Кароні (Coron)",
+      "lat": 36.795,
+      "lng": 21.958,
+      "wikidata": "Q1014182"
+    },
+    "actual_location": {
+      "name": "Кароні (Coron)",
+      "lat": 36.795,
+      "lng": 21.958,
+      "wikidata": "Q1014182"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ACoron%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/koroni-peeters-1686.jpg",
+    "description": "Панарама паўднёвабалканскай цвярдыні Кароні (Марэя), вядомай як «Вока Венецыі», цэнтра баёў Марэйскай вайны 1685 года."
+  },
+  {
+    "id": "lefkada-peeters-1686",
+    "title": "Панарама марской фартэцыі Санта-Маўра / Лефкада (Якаб Пеэтэрс, 1686)",
+    "original_title": "Piazza di Sta Maura (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Лефкас",
+      "lat": 38.830277777778,
+      "lng": 20.704444444444,
+      "wikidata": "Q941736"
+    },
+    "actual_location": {
+      "name": "Лефкас",
+      "lat": 38.830277777778,
+      "lng": 20.704444444444,
+      "wikidata": "Q941736"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3APiazza%20di%20Sta%20Maura%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/lefkada-peeters-1686.jpg",
+    "description": "Перспектыўны від марской крэпасці Санта-Маўра (Лефкада) на Іанічным моры, захопленай венецыянскім флотам Маразіні ў 1684 годзе."
+  },
+  {
+    "id": "gussing-peeters-1686",
+    "title": "Панарама замка Гюсінг / Неметуйвар (Якаб Пеэтэрс, 1686)",
+    "original_title": "Verebel Giszing (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Güssing",
+      "lat": 47.059166666667,
+      "lng": 16.323055555556,
+      "wikidata": "Q279823"
+    },
+    "actual_location": {
+      "name": "Güssing",
+      "lat": 47.059166666667,
+      "lng": 16.323055555556,
+      "wikidata": "Q279823"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AVerebel%20Giszing%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/gussing-peeters-1686.jpg",
+    "description": "Панарама магутнага замка Гюсінг на вяршыні патухлага вулкана — радавога гнязда Бацьяні і шчыта заходняга венгерскага памежжа."
+  },
+  {
+    "id": "zsambek-peeters-1686",
+    "title": "Панарама замка і мястэчка Жамбек (Якаб Пеэтэрс, 1686)",
+    "original_title": "Schombock (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Zsámbék",
+      "lat": 47.548333333333,
+      "lng": 18.718611111111,
+      "wikidata": "Q1088790"
+    },
+    "actual_location": {
+      "name": "Zsámbék",
+      "lat": 47.548333333333,
+      "lng": 18.718611111111,
+      "wikidata": "Q1088790"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ASchombock%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/zsambek-peeters-1686.jpg",
+    "description": "Панарама Жамбека з яго раманскім абацтвам, пераўтвораным туркамі ў крэпасць на падыходах да Буды."
+  },
+  {
+    "id": "szatmar-peeters-1686",
+    "title": "Панарама фартэцыі Сатмар / Сату-Марэ (Якаб Пеэтэрс, 1686)",
+    "original_title": "Sadtwaer Sacmar (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Сату-Марэ",
+      "lat": 47.79,
+      "lng": 22.89,
+      "wikidata": "Q185332"
+    },
+    "actual_location": {
+      "name": "Сату-Марэ",
+      "lat": 47.79,
+      "lng": 22.89,
+      "wikidata": "Q185332"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ASadtwaer%20Sacmar%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/szatmar-peeters-1686.jpg",
+    "description": "Панарама бастыённага воднага замка Сатмар на рацэ Самош — важнага стратэгічнага цэнтра на мяжы Венгрыі і Парцыума."
+  },
+  {
+    "id": "novi-zrin-peeters-1686",
+    "title": "Панарама крэпасці Новы Зрын / Зрынівар (Якаб Пеэтэрс, 1686)",
+    "original_title": "Serinwar Zatmar (Jacob Peeters)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Legrad",
+      "lat": 46.3,
+      "lng": 16.866666666667,
+      "wikidata": "Q1014822"
+    },
+    "actual_location": {
+      "name": "Legrad",
+      "lat": 46.3,
+      "lng": 16.866666666667,
+      "wikidata": "Q1014822"
+    },
+    "year": 1686,
+    "century": 17,
+    "artist": "Якаб Пеэтэрс (Jacob Peeters)",
+    "publisher": "Jacob Peeters (Antwerpen)",
+    "album": "Description des principales villes... sous la domination du Grand Turc",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ASerinwar%20Zatmar%20-%20Peeters%20Jacob%20-%201686.jpg",
+    "image_url": "images/novi-zrin-peeters-1686.jpg",
+    "description": "Панарама знакамітай фартыфікацыі Новы Зрын (Zrínyivár), збудаванай харвацкім банам Міклашам Зрыні на зліцці рэк Мура і Драва для стрымлівання турэцкіх паходаў."
+  },
+  {
+    "id": "visegrad-hoefnagel-1595",
+    "title": "Панарама дунайскага замка Вішэград (Георг Хёфнагель, 1595)",
+    "original_title": "Vizzegrad (Visegrád) - G. Hoefnagel 1595",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Вішэград",
+      "lat": 47.785782,
+      "lng": 18.970245,
+      "wikidata": "Q548097"
+    },
+    "actual_location": {
+      "name": "Вішэград",
+      "lat": 47.785782,
+      "lng": 18.970245,
+      "wikidata": "Q548097"
+    },
+    "year": 1595,
+    "century": 16,
+    "artist": "Георг і Якаб Хёфнагель (Hoefnagel)",
+    "publisher": "Braun & Hogenberg (Köln)",
+    "album": "Civitates Orbis Terrarum (Vol. V)",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AVizzegrad-1595-by%20Hoefnagel.jpg",
+    "image_url": "images/visegrad-hoefnagel-1595.jpg",
+    "description": "Манументальная ведута стратэгічнага каралеўскага замка Вішэград у Дунайскім павароце, цэнтра пастаянных баёў часоў 15-гадовай вайны з асманамі."
+  },
+  {
+    "id": "bratislava-merian-1650",
+    "title": "Панарама Прэсбурга / Браціславы на Дунаі (Маціяс Мерыян)",
+    "original_title": "Topographia Posoniensis (Pressburg)",
+    "view_type": "panorama",
+    "status": "authentic",
+    "status_label": "Аўтэнтычная панарама",
+    "claimed_location": {
+      "name": "Браціслава",
+      "lat": 48.1516988,
+      "lng": 17.1093063,
+      "wikidata": "Q1780"
+    },
+    "actual_location": {
+      "name": "Браціслава",
+      "lat": 48.1516988,
+      "lng": 17.1093063,
+      "wikidata": "Q1780"
+    },
+    "year": 1650,
+    "century": 17,
+    "artist": "Маціяс Мерыян (Matthäus Merian)",
+    "publisher": "Merian (Frankfurt am Main)",
+    "album": "Topographia Hungariae",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ATopographia%20Regiae%20Liberaeq.%20Civitatis%20Posoniensis%20vulgo%20Pressburg%20Hungariae%20Superioris%20ad%20Danubium%20sita%20cum%20adiacenti%20castro%20ubi%20sacra%20regni%20Hungariae%20coronoa%20conservatur%20-%20btv1b53194611s%20%281%20of%202%29.jpg",
+    "image_url": "images/bratislava-merian-1650.jpg",
+    "description": "Класічная медзярэзная панарама каралеўскага замка і сталіцы Верхняй Венгрыі над Дунаем, дзе захоўвалася святая карона Венгрыі."
+  },
+  {
     "id": "trnava-peeters-1686",
     "title": "Панарама горада Трнава (Якаб Пеэтэрс, 1686)",
     "original_title": "Tyrnavia vulgo Dyrna (Jacob Peeters)",
